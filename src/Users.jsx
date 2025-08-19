@@ -1,6 +1,8 @@
 import { useQuery } from '@tanstack/react-query'
 import axios from 'axios'
 
+//fetching API using tan stack query 
+
 function Users() {
   const { data, isLoading, isError, error } = useQuery({
     queryKey: ['users'],
