@@ -2,6 +2,8 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 
+// React Form with Zod 
+
 // Validation schema with Zod
 const schema = z.object({
   firstName: z.string().trim().nonempty("First name is required"),
